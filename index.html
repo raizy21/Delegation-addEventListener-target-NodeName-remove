@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Delegation</title>
+    <!-- fav_icon  -->
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+
+  <body>
+    <h1>Event Delegation</h1>
+
+    <form action="/tweet" id="tweetForm">
+      <input type="text" name="username" placeholder="username" />
+      <input type="text" name="tweet" placeholder="tweet" />
+      <button>Post Tweet can be deleted by pressing click</button>
+    </form>
+
+    <h2>Tweets:</h2>
+    <ul id="tweets">
+      <li>I am a li can be delted by pressing click!</li>
+      <li>I am a li can be delted by pressingg click!</li>
+      <p>I am a p in ul ca not be deleted by pressing click!</p>
+    </ul>
+
+    <!-- script -->
+    <script src="script.js"></script>
+  </body>
+</html>
